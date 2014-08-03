@@ -1,0 +1,11 @@
+#!/bin/bash
+
+if ! which python3.4 > /dev/null; then
+    echo 'This script requires Python 3.4' 1>&2
+    exit 1
+fi
+
+(test -f env/bin/activate || virtualenv --no-site-packages -p python3.4 env) &&
+source env/bin/activate &&
+pip install -r requirements.txt
+
