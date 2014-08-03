@@ -16,7 +16,7 @@ Then run the script with ```./mkenv``` and use ```source env/bin/activate```
 to use the virtualenv. After that, you can just run the script.
 
 ```
-./random_internet.py
+./random_internet.py -h # Display some help, showing more info.
 ```
 
 ### What If I'm Running Windows?
