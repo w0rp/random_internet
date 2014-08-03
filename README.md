@@ -13,8 +13,11 @@ Build a virtualenv to run the script with. You will need:
 * Some version of virtualenv
 
 Then run the script with ```./mkenv``` and use ```source env/bin/activate```
-to use the virtualenv. After that, you can just run the script with
-```./random_internet.py```.
+to use the virtualenv. After that, you can just run the script.
+
+```
+./random_internet.py
+```
 
 ### What If I'm Running Windows?
 
